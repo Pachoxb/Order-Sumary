@@ -2,6 +2,8 @@
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
 }
 
 html {
@@ -10,7 +12,7 @@ html {
 
 body {
   font-family: 'Red Hat Display', sans-serif;
-  background-color: var(--Very-pale-blue);
+  background-color: var(--Pale-blue);
 }
 
 .flex {
@@ -29,7 +31,11 @@ body {
 .card {
   background-color: white;
   width: 450px;
-  border-radius: 25px;
+  border-radius: 20px;
+}
+
+.card-image {
+  border-radius: 20px;
 }
 
 .card-summary {
@@ -43,7 +49,23 @@ body {
 }
 
 .anual {
-  background-color: #094631;
-  padding: 3px;
+  background-color: #d1d3d2;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.pay {
+  background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+}
+
+.order {
+  background-color: chocolate;
+  padding: 10px;
+  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */
