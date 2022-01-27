@@ -43,7 +43,8 @@ body {
         &-summary {
             display: flex;
             flex-direction: column;
-            
+            text-align: center;
+
         }
 
 
@@ -51,26 +52,28 @@ body {
 }
 
 .anual {
-    
     background-color: rgb(209, 211, 210);
+    margin: 0 3vw 0 3vw;
     padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 15px;
     
  }
 
  .pay {
     background-color: blueviolet;
-    padding: 10px;
+    margin: 8px 32px;
+    padding: 1px 0;
+    border-radius: 10px;
     text-align: center;
-
+    
  }
 
 .order {
-    background-color: chocolate;
-    padding: 10px;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    margin: 0 32px 10px 32px;
+    padding: 1px 0;
+    border-radius: 10px;
     text-align: center;
-
+    
 }
