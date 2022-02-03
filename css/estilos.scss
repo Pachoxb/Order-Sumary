@@ -52,20 +52,31 @@ body {
 }
 
 .anual {
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(209, 211, 210);
-    margin: 0 3vw 0 3vw;
-    padding: 10px;
-    
+    margin: 8px 32px;
+    padding: 10px 0;
+
  }
 
+
  .pay {
-    background-color: blueviolet;
+    background-color: var(--Bright-blue);
+    color: white;
+    font-weight: bold;
     margin: 8px 32px;
     padding: 1px 0;
     border-radius: 10px;
     text-align: center;
     
  }
+
+.buttom {
+    display: flex;
+    justify-content: right;
+    
+}
 
 .order {
     background-color: white;
