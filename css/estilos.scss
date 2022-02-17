@@ -35,7 +35,10 @@ body {
 
         &-image {
             border-radius: 20px;
-
+            overflow: hidden; /* Walter */
+            img{
+                display: block; /* Walter */
+            }
         }
 
 
@@ -57,8 +60,14 @@ body {
     background-color: rgb(209, 211, 210);
     margin: 8px 32px;
     padding: 1px 0;
-    
- }
+    align-items: center; /* Walter */
+    padding-left: 20px; /* Walter */
+}
+
+.anual2{
+    margin-right: auto; /* Walter */
+    margin-left: 30px; /* Walter */
+}
 
 .plan {
     font-weight: bold;
