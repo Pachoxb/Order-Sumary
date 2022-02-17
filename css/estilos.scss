@@ -56,10 +56,18 @@ body {
     justify-content: space-between;
     background-color: rgb(209, 211, 210);
     margin: 8px 32px;
-    padding: 10px 0;
-
+    padding: 1px 0;
+    
  }
 
+.plan {
+    font-weight: bold;
+}
+
+.boton {
+    margin: 10px 21px;
+
+}
 
  .pay {
     background-color: var(--Bright-blue);
@@ -75,7 +83,7 @@ body {
 .buttom {
     display: flex;
     justify-content: right;
-    
+        
 }
 
 .order {
